@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    border-bottom: .25px solid #a2a9af;
+}
+
+img{
+    border-radius: 0.25rem
+}
+
+.dropdown-item:hover{
+    background-color: #e5e5e6;
+}
+
+.jumbotron{
+    background-size: cover!important;
+    background-position: 50%!important;
+    height: 600px;
+}
+
+.row-content{
+    padding: 50px 0;
+    margin: 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.services{
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+@media(max-width: 768px){
+    .row-content{
+        padding: 15px 0;
+        border-bottom: none;
+        min-height: 200px;
+    }
+
+    .md-align{
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #alignJumbo{
+        text-align: center;
+    }
+    #reverseSM{
+        flex-direction: column-reverse;
+    }
+
+    #contactButton{
+        display: none;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .dropdown-item:hover{
+        background-color: none;
+    }
+
+    .footer-detail-border{
+        border-bottom: 1px solid #dee2e6;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    .footer-detail{
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    .header-click{
+        cursor: pointer;
+        
+    }
+}
+
+#contactButton{
+    position: fixed;
+    bottom:25px;
+    right:25px;
+    cursor:pointer;
+    z-index: 99;
+}
+
+.remove-b{
+    border-bottom: none;
+}
+
+.faq-click{
+    cursor: pointer;
+    background-color: #343a40;
+}
+
+.faq-click:hover{
+    background-color: grey;
+}
+
+.copyright{
+    font-size: .75rem;
+}
