@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Pet Daycare - Services</title>
+    <title>Pet Daycare - Contact Us</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top py-4 text-uppercase">
@@ -20,10 +20,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -36,8 +36,42 @@
         </div>
     </nav>
 
-    <main id="web" role="main" class="d-none d-sm-inline-block container-fluid my-4">
-        <h1 class=" mt-1 mb-2 mt-md-3 mb-md-5">Contact Us</h1>
+    <main role="main" class=" container-fluid mt-4 mb-5">
+        <h1 class="mt-1 mb-2 mt-md-3 mb-md-5">Contact Us</h1>
+        <div class="row d-flex align-items-center">
+            <div class="col-10 col-md-8 col-xl-6 p-4 mx-auto text-center">
+                <h3>
+                    1234 Pet Street<br>
+                    Chicago, IL 60622<br>
+                </h3>
+                <a href="https://goo.gl/maps/eCKTCWtyMLzxiS628" class="btn btn-link">Get Directions</a><br>
+                <a role="button" class="btn btn-link" href="tel:+1-555-555-5555"><i class="fa fa-phone text-primary"></i> 1-555-555-555</a><br>
+                <a role="button" class="btn btn-link" href="mailto:support@petcare.com"><i class="fa fa-envelope-o text-primary"></i> support@petcare.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-md-8 col-xl-6 bg-dark text-white p-4 mx-auto">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="col-form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="col-form-label">Message</label>
+                        <textarea name="message" class="form-control" id="message" rows="8" placeholder="Enter message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+        </div>
     </main>
 
 <!-- FOOTER -->
